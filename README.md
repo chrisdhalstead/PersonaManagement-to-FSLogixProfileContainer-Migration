@@ -11,7 +11,7 @@ Once you have chosen the profiles to migrate, the script will then create a VHD/
 
 This script needs to be run as an Administrator.  Make sure to launch `WindowsPowerShell (Admin)`
 
-![PowerShellAdmin](.\Images\PowerShellAdmin.PNG) 
+![PowerShellAdmin](/Images/PowerShellAdmin.PNG) 
 
 
 
