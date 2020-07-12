@@ -15,20 +15,20 @@ Once you have chosen the profiles to migrate, the script will then create a VHD/
 2. Run `PM-To-FSL-Migration.ps1`
 
 3. Enter the UNC Path where you want FSLogix Profile Containers Created ex: `Example: \\fileserver\share`
-   ![PCPath](/Images/PCPath.PNG)
+   ![PCPath](https://github.com/chrisdhalstead/PersonaManagement-to-FSLogixProfileContainer-Migration/blob/master/Images/PCPath.PNG)
 
 4. Enter the UNC Path to the Persona Management Share  `Example: \\fileserver\share`
-   ![PMPath](Images/PMPath.PNG)
+   ![PMPath](https://github.com/chrisdhalstead/PersonaManagement-to-FSLogixProfileContainer-Migration/blob/master/Images/PMPath.PNG)
 
 5. Enter the size of the FSLogix Profile Container to be created in Gigabytes `Example: 30`
-   ![VHDSize](Images/VHDSize.PNG)
+   ![VHDSize](https://github.com/chrisdhalstead/PersonaManagement-to-FSLogixProfileContainer-Migration/blob/master/Images/VHDSize.PNG)
 
 6. Enter the disk format - VHD or VHDX `Example: VHDX`
-   ![DiskFormat](Images/DiskFormat.PNG)
+   ![DiskFormat](https://github.com/chrisdhalstead/PersonaManagement-to-FSLogixProfileContainer-Migration/blob/master/Images/DiskFormat.PNG)
 
 7. Chose one or multiple Persona Management Profiles to migrate and click OK.
 
-   ![PickPMProfiles](Images/PickPMProfiles.PNG)
+   ![PickPMProfiles](https://github.com/chrisdhalstead/PersonaManagement-to-FSLogixProfileContainer-Migration/blob/master/Images/PickPMProfiles.PNG)
 
    *Note: Profiles will not show if the Persona Management Profile contains the `PM2FSLflag.txt` file.  Delete the flag file to run the import process again.*
 
@@ -53,7 +53,7 @@ In the logs folder the following logs are created:
 - `PMtoFSL#{username who execute script}` - shows details on processing each user.
 - `robocopy_{user that was migrated}` - detailed logging of the robocopy from Persona to FSLogix per user
 
-![Logs](Images/Logs.PNG)
+![Logs](https://github.com/chrisdhalstead/PersonaManagement-to-FSLogixProfileContainer-Migration/blob/master/Images/Logs.PNG)
 
 
 
@@ -63,7 +63,7 @@ Example of Admin Log:
 
 Example of Robocopy Log:
 
-![robocopy_log](Images/robocopy_log.PNG)
+![robocopy_log](https://github.com/chrisdhalstead/PersonaManagement-to-FSLogixProfileContainer-Migration/blob/master/Images/robocopy_log.PNG)
 
 
 
