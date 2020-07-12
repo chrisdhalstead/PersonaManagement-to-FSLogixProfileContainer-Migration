@@ -10,7 +10,7 @@ Once you have chosen the profiles to migrate, the script will then create a VHD/
 ### Usage
 
 1. This script needs to be run as an Administrator.  Make sure to launch `WindowsPowerShell (Admin)`
-   ![PowerShellAdmin](https://github.com/chrisdhalstead/PersonaManagement-to-FSLogixProfileContainer-Migration/blob/Master/Images/PowerShellAdmin.PNG) 
+   ![PowerShellAdmin](https://github.com/chrisdhalstead/PersonaManagement-to-FSLogixProfileContainer-Migration/blob/master/Images/PowerShellAdmin.PNG) 
 
 2. Run `PM-To-FSL-Migration.ps1`
 
