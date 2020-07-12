@@ -50,7 +50,7 @@ $allprofiles =@()
 foreach ($v6profile in $v6profiles) 
         
     #Check for flag file to indicate it was already processed
-    {if(test-path $v6profile\flag.txt)
+    {if(test-path $v6profile\PM2FSLflag.txt)
         {continue}
             else
         {$allprofiles+=$v6profile}
@@ -149,7 +149,7 @@ if (!(Test-Path $vhdpath))
         catch { $err= $_ }if (!$err){write-log -message "Copying $old to $vhdpath"}else{Write-Log -message "$ Failed to Copy $old to $vhdpath"}
 
     #Add Flad to Persona Directory    
-    out-file $old"\flag.txt"
+    out-file $old"\PM2FSLflag.txt"
 
     #Create FSLogix Directory
     New-Item -Path $fslprofiledir"\AppData\Local\FSLogix" -ItemType Directory | Out-Null
