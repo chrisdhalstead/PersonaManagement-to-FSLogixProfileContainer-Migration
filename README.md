@@ -9,9 +9,14 @@ Once you have chosen the profiles to migrate, the script will then create a VHD/
 
 ### Usage
 
-This script needs to be run as an Administrator.  Make sure to launch `WindowsPowerShell (Admin)`
+1. This script needs to be run as an Administrator.  Make sure to launch `WindowsPowerShell (Admin)`
+   ![PowerShellAdmin](/Images/PowerShellAdmin.PNG) 
+2. Run `PM-To-FSL-Migration.ps1`
+3. Enter the UNC Path where you want FSLogix Profile Containers Created
+   ![PCPath](/Images/PCPath.PNG)
+4. 
 
-![PowerShellAdmin](/Images/PowerShellAdmin.PNG) 
+
 
 
 
