@@ -185,10 +185,10 @@ $script:oldprofilepath = (Read-Host -Prompt "Provide Persona Management Profile 
 Write-Log -Message "Persona Management Profile Path $script:oldprofilepath"
 
 $script:disksize = (Read-Host -Prompt "Enter the size of the Profile Container to be created in GB") #"10"
-Write-Log -Message "Size of Profile Container set to $script:oldprofilepath GB"
+Write-Log -Message "Size of Profile Container set to $script:disksize GB"
 
 $script:diskformat = (Read-Host -Prompt "Enter the disk format VHD or VHDX") #"VHDX"
-Write-Log -Message "Persona Management Profile Path $script:oldprofilepath"
+Write-Log -Message "Disk Type $script:diskformat"
 
 #Look for .V6 profiles in the Persona Management Directory
 $script:v6profiles = Get-ChildItem $script:oldprofilepath | Where-Object{$_.name -like "*.V6"}  | select-object -Expand fullname | sort-object
