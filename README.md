@@ -40,7 +40,7 @@ Once you have chosen the profiles to migrate, the script will then create a VHD/
    4. Create directory for FSLogix Profile and set permissions
    5. Create ProfileData.Reg file in the FSLogix Directory
    6. Copy Persona Management Profile data to the FSLogix Profile Directory with robocopy
-   7. Create flag file `PM2FSL.txt` indicating that this profile has been migrated
+   7. Create flag file `PM2FSLflag.txt` indicating that this profile has been migrated
    8. Remove drive letter and detach VHD
    9. Repeat for every selected Persona Management Profiles
 
